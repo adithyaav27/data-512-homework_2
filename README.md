@@ -46,8 +46,8 @@ Step 4: Analysis
 -   The analysis includes calculating total articles per population and high-quality articles per population on a state-by-state and divisional basis.
 -   The resulting dataset is consolidated into a single CSV file, 'wp_scored_city_articles_by_state.csv'.
 
-## Results
-The analysis produces several key tables:
+Step 5: Results
+-   The analysis produces several key tables:
 1. Top 10 US States by Coverage: This table lists the 10 US states with the highest total articles per capita, sorted in descending order.
 2. Bottom 10 US States by Coverage: This table lists the 10 US states with the lowest total articles per capita, sorted in ascending order.
 3. Top 10 US States by High Quality: This table lists the 10 US states with the highest number of high-quality articles per capita, sorted in descending order.
