@@ -57,16 +57,16 @@ Step 5: Results
 
 ## Data Files
 ### Inputs:
-- [**us_cities_by_state_SEPT.2023.csv**](): This contains the list of cities in the United States by state.
-- [**NST-EST2022-POP.xlsx**](): This contains the population estimates for every US state.
-- [**US States by Region - US Census Bureau.xlsx**](): This lists the states in each regional division.
+- [**us_cities_by_state_SEPT.2023.csv**](https://github.com/adithyaav27/data-512-homework_2/blob/main/input/us_cities_by_state_SEPT.2023.csv): This contains the list of cities in the United States by state.
+- [**NST-EST2022-POP.xlsx**](https://github.com/adithyaav27/data-512-homework_2/blob/main/input/NST-EST2022-POP.xlsx): This contains the population estimates for every US state.
+- [**US States by Region - US Census Bureau.xlsx**](https://github.com/adithyaav27/data-512-homework_2/blob/main/input/US%20States%20by%20Region%20-%20US%20Census%20Bureau.xlsx): This lists the states in each regional division.
 
 ### Intermediate files:
-- [**article_info.csv**](): Article information of all the city articles obtained from the MediaWiki Action API.
-- [**scores.csv**](): Article quality predictions from ORES for each of the articles.
+- [**article_info.csv**](https://github.com/adithyaav27/data-512-homework_2/blob/main/intermediate/article_info.csv): Article information of all the city articles obtained from the MediaWiki Action API.
+- [**scores.csv**](https://github.com/adithyaav27/data-512-homework_2/blob/main/intermediate/scores.csv): Article quality predictions from ORES for each of the articles.
 
 ### Outputs:
-- [**wp_scored_city_articles_by_state.csv**](): Output csv with article quality for each city along with state, regional division, revision id and population.
+- [**wp_scored_city_articles_by_state.csv**](https://github.com/adithyaav27/data-512-homework_2/blob/main/output/wp_scored_city_articles_by_state.csv): Output csv with article quality for each city along with state, regional division, revision id and population.
    - **Fields:**
      - `state`: The name of the US state where the city is located. For example, "Alabama."
      - `regional_division`: The US Census regional division to which the state belongs. This division is based on geographic location and includes multiple states. For example, "East South Central."
